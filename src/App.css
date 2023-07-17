@@ -1,0 +1,44 @@
+body {
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main_div {
+  height: 300px;
+  width: 280px;
+  background: #6a5eef;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  color: #fff;
+  font-size: 3rem;
+}
+
+.btn_div {
+  margin-bottom: 30px;
+}
+
+button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+button:first-child {
+  background: #00ad6f;
+}
+button:last-child {
+  background: #ce0900;
+}
